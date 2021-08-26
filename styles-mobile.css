@@ -1,0 +1,249 @@
+html {
+	box-sizing: border-box;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+@font-face {
+	font-family: 'HighVoltage';
+	src: url('fonts/HighVoltage-Rough.woff') format('woff');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url('fonts/Helvetica.ttc') format('ttc');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Cardo Regular';
+	src: url('fonts/Cardo-Regular.woff') format('woff');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Cardo Italic';
+	src: url('fonts/Cardo-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Cardo Bold';
+	src: url('fonts/Cardo-Bold.woff') format('woff');
+	font-weight: bold;
+}
+
+body {
+	margin: 0;
+}
+
+.texto-autor-left{
+	width: 100%;
+	height: auto;
+	bottom: 20px;
+	position: absolute;
+	text-align: left;
+}
+
+.texto-autor-left h5{
+	font-family:Arial, Helvetica, sans-serif ;
+	font-size: 8px ;
+	color:#ffffff ;
+	margin:0px 50px ;
+}
+
+.texto-autor-right{
+	width: 100%;
+	height: auto;
+	bottom: 20px;
+	position: absolute;
+	text-align: right;
+}
+
+.texto-autor-right h5{
+	font-family:Arial, Helvetica, sans-serif ;
+	font-size: 8px ;
+	color:#ffffff ;
+	margin:0px 50px ;
+}
+
+.imagen-flotante-pinguino{
+	width: 500px;
+	height: auto;
+	padding: 15px;
+	top: 300px;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #ffffff;
+	position: absolute;
+	transform: rotate(5deg);
+	box-sizing: border-box;
+	text-align: center;
+	box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
+	z-index: 100;
+}
+
+
+.texto-img-pinguino{
+	width: 90%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	padding: 0px 0px;
+	box-sizing: border-box;
+}
+
+
+.texto-img-pinguino h5{
+	font-family:Arial, Helvetica, sans-serif ;
+	font-size: 8px ;
+	color:#0C1719 ;
+	margin:0px ;
+}
+
+.bgchubut {
+	background-image:url(img/chubut.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.bgrionegro {
+	background-image:url(img/rio_negro.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.animal {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: space-between;
+	overflow: hidden;
+	align-items: center;
+	position: relative;
+}
+
+.animal.reverse {
+	flex-direction: column-reverse;
+}
+
+.seccion-img {
+	width: 100%;
+	margin: 0;
+	position: relative;
+}
+
+.seccion-img img {
+	width: 100%;
+	max-width: 100%;
+}
+
+.contenido {
+	width: 90%;
+}
+
+.subtitulo-texto {
+	font-family: 'HighVoltage';
+	font-size: 47px;
+	line-height: 15px;
+	font-weight: normal;
+	color: #343c4a;
+}
+
+.uno {
+	margin-right: 60px;
+}
+
+.dos {
+	margin-left: 75px;
+}
+
+.subtitulo {
+	margin: 0;
+	text-align: center;
+}
+
+.subtitulo-texto.uno-b {
+	margin-left: 16px;
+}
+
+.subtitulo-texto.dos-b {
+	margin-right: 79px;
+}
+
+.subtitulo-texto.tres {
+	margin-left: 14px;
+}
+
+.temporada {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px dashed #343c4a;
+	align-items: flex-start;
+}
+
+.temporada-calendario {
+	width: 6%;
+	margin: 0 20px 0 20px;
+}
+
+.temporada-calendario img {
+	width: 100%;
+	max-width: 100%;
+}
+
+.temporada-texto {
+	color: #343c4a;
+	width: 80%;
+	margin-top: 0;
+	font-size: 14px;
+}
+
+.descripcion {
+	display: flex;
+	justify-content: space-between;
+}
+
+.descripcion-donde {
+	font-family: 'HighVoltage';
+	font-size: 24px;
+	font-weight: normal;
+	color: #343c4a;
+	width: 20%;
+	margin-top: 10px;
+}
+
+.descripcion-texto {
+	color: #343c4a;
+	font-family: 'Cardo Regular';
+	font-size: 14px;
+	width: 80%;
+}
+
+.cierre-texto {
+	font-family: 'HighVoltage';
+	font-size: 24px;
+	color: #80553c;
+	line-height: 8px;
+	text-align: center;
+}
+
+.cierre-texto.dos {
+	margin-left: 35px;
+}
+
+/* MEDIA 1260*/
+@media (max-width: 1260px) {
+	.imagen-flotante-pinguino{
+		display: none;
+	}
+
+}

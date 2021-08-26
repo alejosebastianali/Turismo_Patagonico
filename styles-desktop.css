@@ -1,0 +1,115 @@
+@media (min-width: 1260px) {
+	
+	.texto-autor{
+		width: 100%;
+		height: auto;
+		position: absolute;
+	}
+
+	.animal {
+		flex-direction: row;
+	}
+
+	.animal.reverse {
+		flex-direction: row;
+	}
+
+	.seccion-img {
+		width: 56%;
+		margin:-5px 0px
+	}
+
+	.contenido {
+		width: 30%;
+	}
+
+	.contenido.left {
+		margin-right: auto;
+	}
+
+	.imagen-flotante-pinguino{
+		width: 350px;
+		top: 100px;
+		margin-left: 10px;
+	}
+
+	.texto-img-pinguino h5{
+		font-size: 6px ;
+	}
+
+	.bgchubut {
+		background-image:url(img/chubut.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.bgrionegro {
+		background-image:url(img/rio_negro.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+	}
+
+	.contenido.right {
+		margin-left: auto;
+	}
+
+	.subtitulo {
+		text-align: left;
+	}
+
+	.subtitulo-texto {
+		font-size: 50px;
+	}
+
+	.uno {
+		margin-right: 40px;
+	}
+
+	.dos {
+		margin-left: 80px;
+	}
+
+	.subtitulo-texto.uno-b {
+		margin-left: 50px;
+	}
+
+	.subtitulo-texto.dos-b {
+		margin-right: 75px;
+	}
+
+	.subtitulo-texto.tres {
+		margin-left: 40px;
+	}
+
+	.subtitulo-texto.uno-c {
+		margin-right: 135px;
+		text-align: center;
+	}
+
+	.temporada {
+		padding-bottom: 15px;
+	}
+
+	.temporada-texto {
+		font-size: 14px;
+		padding-left: 10px;
+	}
+
+	.descripcion-donde {
+		font-size: 30px;
+	}
+
+	.descripcion-texto {
+		font-size: 14px;
+		margin-left: 10px;
+	}
+
+	.cierre-texto {
+		font-size: 40px;
+		text-align: left;
+		padding-left: 15px;
+	}
+}
